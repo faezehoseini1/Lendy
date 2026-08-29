@@ -1,0 +1,29 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#7dd3fc"/>
+    <stop offset="100%" stop-color="#6ee7b7"/>
+  </linearGradient>
+  <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#38bdf8"/>
+    <stop offset="100%" stop-color="#34d399"/>
+  </linearGradient>
+</defs>
+
+<g transform="translate(120,120)">
+  <circle r="110" fill="none" stroke="url(#g1)" stroke-width="2" opacity="0.5"/>
+  <circle r="85" fill="none" stroke="url(#g1)" stroke-width="1" opacity="0.3"/>
+
+  <circle cx="0" cy="-110" r="7" fill="url(#g1)" opacity="0.9"/>
+  <circle cx="77.8" cy="-77.8" r="5" fill="url(#g1)" opacity="0.6"/>
+  <circle cx="110" cy="0" r="7" fill="url(#g1)" opacity="0.9"/>
+  <circle cx="77.8" cy="77.8" r="5" fill="url(#g1)" opacity="0.6"/>
+  <circle cx="0" cy="110" r="7" fill="url(#g1)" opacity="0.9"/>
+  <circle cx="-77.8" cy="77.8" r="5" fill="url(#g1)" opacity="0.6"/>
+  <circle cx="-110" cy="0" r="7" fill="url(#g1)" opacity="0.9"/>
+  <circle cx="-77.8" cy="-77.8" r="5" fill="url(#g1)" opacity="0.6"/>
+
+  <circle r="62" fill="#0d1f35" stroke="url(#g2)" stroke-width="1.5"/>
+  <path d="M-18 -32 L-18 28 L22 28" fill="none" stroke="url(#g2)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
